@@ -5,9 +5,9 @@
 #include "BookController.h"
 
 Book* BookController::create(string authorName, string authorSurname, string categoryName, string categoryDescription) {
-    Author *author = new Author {authorName, authorSurname};
-    Category *category = new Category {categoryName, categoryDescription};
-    Book *book = new Book {author, category};
+    Author *author = new Author(authorName, authorSurname);
+    Category *category = new Category(categoryName, categoryDescription);
+    Book *book = new Book(author, category);
     return book;
 }
 
