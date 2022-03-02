@@ -1,5 +1,19 @@
 # Lab 1 - Klasy, metody, obiekty
 
+## Uruchomienie
+
+Wykonaj następujące operacje:
+
+```bash
+g++ main.cpp Category.cpp Author.cpp Book.cpp BookController.cpp -o wynik.out
+```
+```bash
+chmod 777 wynik.out
+```
+```bash
+./wynik.out
+```
+
 ## Zadania
 1. Zapoznaj się z kodem aplikacji i odpowiedz na pytania:
     * Co nam daje podział na pliki .cpp i .h ?
